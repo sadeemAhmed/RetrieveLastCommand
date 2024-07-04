@@ -61,7 +61,7 @@ This file handles the refreshing of the latest command on the command retrieval 
 
 This file processes the commands sent from the front end. It receives the commands via POST requests and stores them in a MySQL database.
 
-### PHP (retrieve_command.php)
+### PHP (get_last_command.php)
 
 This file retrieves the latest command from the database. It sends the command back to the front end for display on the command retrieval page.
 
