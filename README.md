@@ -118,9 +118,8 @@ robot-control-panel/
 ├── retrieve_command.html
 ├── styles.css
 ├── script.js
-├── retrieve.js
 ├── store_command.php
-├── retrieve_command.php
+├── get_last_command.php
 ├── README.md
 ```
 
@@ -128,9 +127,8 @@ robot-control-panel/
 - `retrieve_command.html`: The HTML file for the command retrieval page.
 - `styles.css`: The CSS file for styling both the control panel and command retrieval pages.
 - `script.js`: The JavaScript file for handling the joystick interactions and sending commands.
-- `retrieve.js`: The JavaScript file for refreshing and displaying the latest command.
 - `store_command.php`: The PHP file for storing commands in the database.
-- `retrieve_command.php`: The PHP file for retrieving the latest command from the database.
+- `get_last_command.php`: The PHP file for retrieving the latest command from the database.
 - `README.md`: This file, containing information about the project.
 
 ## ⭐️Features⭐️
