@@ -141,5 +141,5 @@ robot-control-panel/
 - **Command Retrieval**: View the latest command sent to the robot and refresh the command display.
 - **Separate Interfaces**: Designed with two separate interfaces for each device, one for controlling the robot and another for displaying the latest command.
 
-made with love by "she code team "🤍😄
+made with love by "she codes team "🤍😄
 raghd Alshammari - sadeem alresaini - razan alothaim.
