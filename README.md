@@ -109,7 +109,7 @@ This file retrieves the latest command from the database. It sends the command b
     - Click the Refresh button to update and display the latest command.
     - Click the Back to Control Panel button to return to the control interface.
 
-## File Structure
+## File Structure 🏗️
 
 ```
 robot-control-panel/
