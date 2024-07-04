@@ -53,10 +53,6 @@ This file styles both the control panel and command retrieval pages to make them
 
 This file handles the joystick interactions and sends the commands to the server. It listens for user actions (like dragging the joystick) and sends corresponding commands using AJAX.
 
-### JavaScript (retrieve.js)
-
-This file handles the refreshing of the latest command on the command retrieval page. It sends a request to the server to get the latest command and updates the displayed command.
-
 ### PHP (store_command.php)
 
 This file processes the commands sent from the front end. It receives the commands via POST requests and stores them in a MySQL database.
