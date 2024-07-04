@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrieve Last Command</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="command-panel">
+        <h1>Last Command</h1>
+        <div id="last-command"></div>
+        <button class="refresh-button" onclick="fetchLastCommand()">Refresh</button>
+        <button class="nav-button" onclick="window.location.href='index.html'">Back to Control Panel</button>
+    </div>
+    <script>
+        function fetchLastCommand() {
+            fetch('get_last_command.php')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('last-command').innerText = data;
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        // Fetch the last command on page load
+        document.addEventListener('DOMContentLoaded', fetchLastCommand);
+    </script>
+</body>
+</html>

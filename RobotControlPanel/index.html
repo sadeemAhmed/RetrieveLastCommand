@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Control Panel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="control-panel">
+        <h1>Robot Control Panel</h1>
+        <div class="joystick" id="joystick">
+            <div class="stick" id="stick"></div>
+        </div>
+        <button class="stop-button" onclick="sendCommand('Stop')">Stop</button>
+        <button class="nav-button" onclick="window.location.href='retrieve_command.html'">Retrieve Last Command</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
