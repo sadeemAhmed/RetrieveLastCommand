@@ -113,7 +113,3 @@ robot-control-panel/
 - **Joystick Control**: Interact with the joystick to send movement commands to the robot.
 - **Stop Button**: Easily stop the robot with a single click.
 - **Command Storage**: Store commands in a MySQL database for further processing or analysis.
-
----
-
-This README provides a comprehensive overview of the project, its installation, usage, and structure. Feel free to modify it further to suit your needs.
