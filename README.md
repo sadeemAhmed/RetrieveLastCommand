@@ -53,15 +53,11 @@ This file styles both the control panel and command retrieval pages to make them
 
 This file handles the joystick interactions and sends the commands to the server. It listens for user actions (like dragging the joystick) and sends corresponding commands using AJAX.
 
-### JavaScript (retrieve.js)
-
-This file handles the refreshing of the latest command on the command retrieval page. It sends a request to the server to get the latest command and updates the displayed command.
-
 ### PHP (store_command.php)
 
 This file processes the commands sent from the front end. It receives the commands via POST requests and stores them in a MySQL database.
 
-### PHP (retrieve_command.php)
+### PHP (get_last_command.php)
 
 This file retrieves the latest command from the database. It sends the command back to the front end for display on the command retrieval page.
 
@@ -118,9 +114,8 @@ robot-control-panel/
 ├── retrieve_command.html
 ├── styles.css
 ├── script.js
-├── retrieve.js
 ├── store_command.php
-├── retrieve_command.php
+├── get_last_command.php
 ├── README.md
 ```
 
@@ -128,9 +123,8 @@ robot-control-panel/
 - `retrieve_command.html`: The HTML file for the command retrieval page.
 - `styles.css`: The CSS file for styling both the control panel and command retrieval pages.
 - `script.js`: The JavaScript file for handling the joystick interactions and sending commands.
-- `retrieve.js`: The JavaScript file for refreshing and displaying the latest command.
 - `store_command.php`: The PHP file for storing commands in the database.
-- `retrieve_command.php`: The PHP file for retrieving the latest command from the database.
+- `get_last_command.php`: The PHP file for retrieving the latest command from the database.
 - `README.md`: This file, containing information about the project.
 
 ## ⭐️Features⭐️
