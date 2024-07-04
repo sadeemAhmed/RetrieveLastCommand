@@ -1,6 +1,6 @@
 # TASK2 : Robot Control Panel 
 
-This project is a web-based control panel for a robot. It allows users to control the robot's movements using a joystick interface and stop the robot with a dedicated button. The commands are sent to a backend server and stored in a database for further processing. The project is divided into two pages: one for controlling the robot and another for retrieving the latest command.
+This project is a web-based control panel for a robot. It allows users to control the robot's movements using a joystick🕹️ interface and stop the robot with a dedicated button. The commands are sent to a backend server and stored in a database for further processing. The project is divided into two pages: one for controlling the robot and another for retrieving the latest command.
 
 ## Table of Contents⚙️
 - [Project Description](#project-description)
@@ -18,7 +18,7 @@ This project is a web-based control panel for a robot. It allows users to contro
 
 ## Project Description📝
 
-The Robot Control Panel project provides a simple and intuitive web interface for controlling a robot. The interface includes a joystick🖲️🕹️ that users can manipulate to send directional commands (Forward, Backward, Left, Right) to the robot. Additionally, a Stop button allows users to halt the robot's movement instantly.
+The Robot Control Panel project provides a simple and intuitive web interface for controlling a robot. The interface includes a joystick 🕹️ that users can manipulate to send directional commands (Forward, Backward, Left, Right) to the robot. Additionally, a Stop button allows users to halt the robot's movement instantly.
 
 Commands are processed in real-time and sent to a backend server using AJAX requests. These commands are then stored in a MySQL database for logging and further actions.
 
